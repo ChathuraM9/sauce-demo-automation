@@ -18,7 +18,6 @@ const chrome = require('selenium-webdriver/chrome');
 
         await driver.wait(until.titleIs('Swag Labs'), 10000); 
 
-        console.log('Login successful and products page is accessible.');
     } catch (error) {
         console.error('Test failed:', error);
     } finally {
